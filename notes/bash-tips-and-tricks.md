@@ -4,6 +4,18 @@
 ```bash
 [user]$ echo $'\a' #make the terminal beep
 ```
+_Changing the Command Prompt_
+```bash
+export PS1="prompt"
+```
+You can use the following items within "prompt" to display variables:
+* \d – Current date
+* \t – Current time
+* \h – Host name
+* \# – Command number
+* \u – User name
+* \W – Current working directory (ie: Desktop/)
+* \w – Current working directory with full path (ie: /Users/Admin/Desktop/)
 
 ###I/O Redirection
 ```bash
@@ -13,3 +25,6 @@
 ```
 
 ###Useful commands
+```bash
+[user]$ hostname #display the hostname
+```
