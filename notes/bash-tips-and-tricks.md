@@ -27,6 +27,29 @@ You can also access environment variables like $PATH or even execute commands li
 ```
 
 ###Useful commands
+man or help theses commands for more info:
 ```bash
+[user]$ man      #display manual pages
+[user]$ help     #display help message
+[user]$ which    #find where a command is located
+[user]$ type     #describe the command type (alias, function, builtin, etc.)
 [user]$ hostname #display the hostname
+[user]$ sort     #sort input and output it
+[user]$ uniq     #remove duplicates from sorted input and output it
+[user]$ grep     #search for lines matching patterns
+[user]$ fmt      #format input and output it
+[user]$ pr       #ready input for printing
+[user]$ head     #read first few lines of input
+[user]$ tail     #read last few lines of input
+[user]$ sed      #stream editor
+[user]$ awk      #powerful programming language for filtering files
+[user]$ echo     #print things out
+[user]$ cd       #change directory
+[user]$ mkdir    #make directory
+[user]$ ls       #output directory contents
+[user]$ touch    #access file if it exists; otherwise, create it
+[user]$ cat      #ouptut the input
+[user]$ cal      #display a calendar
+[user]$ printenv #print env variables
+[user]$ file     #display info about a file
 ```
