@@ -17,6 +17,8 @@ You can use the following items within "prompt" to display variables:
 * \W – Current working directory (ie: Desktop/)
 * \w – Current working directory with full path (ie: /Users/Admin/Desktop/)
 
+You can also access environment variables like $PATH or even execute commands like $(pwd). In this example, the pwd is useful because it always outputs the full path name, unlike \W and \w which use the ~ home shortcut.
+
 ###I/O Redirection
 ```bash
 [user]$ command > destination #redirected output
