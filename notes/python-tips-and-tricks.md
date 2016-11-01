@@ -31,3 +31,16 @@ Finally, to enable the script globally, follow the above steps to create an exec
 to contain the path to the bash script. Then you can do:
 `$my_python_bash_script`
 and voilà! Python script executed.
+
+###Using "main" in a Python script
+
+Sometimes, you want to write a Python script/class definition with an executable function, but you later realize that class definition would be useful to import in later functions. How do we solve this? In Python, we have a special construct:
+
+```python
+#Class def
+
+if __name__=="__main__":
+  #Executable function def
+```
+
+Ignoring the details, this allows us to import the Python file and use it's class definitions _or_ call it directly from the command line, executing anything within the if block at the end of the file.
