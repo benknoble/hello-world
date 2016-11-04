@@ -3,6 +3,7 @@
 ###Fun stuff
 ```bash
 [user]$ echo $'\a' #make the terminal beep
+[user]$ say "something" #tested on mac only, but the computer will read text to you
 ```
 _Changing the Command Prompt_
 ```bash
