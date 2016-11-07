@@ -53,4 +53,6 @@ man or help theses commands for more info:
 [user]$ cal      #display a calendar
 [user]$ printenv #print env variables
 [user]$ file     #display info about a file
+[user]$ mkfile -n <size> junkfile
+                 #make a file of size size
 ```
