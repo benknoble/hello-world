@@ -28,7 +28,7 @@ You can also access environment variables like $PATH or even execute commands li
 ```
 
 ###Useful commands
-man or help theses commands for more info:
+man or help these commands for more info:
 ```bash
 [user]$ man      #display manual pages
 [user]$ help     #display help message
