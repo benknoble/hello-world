@@ -37,3 +37,5 @@ The order of the attributes are as follows:
 9.   executable with setgid bit set
 10.  directory writable to others, with sticky bit
 11.  directory writable to others, without sticky bit
+
+The default is "exfxcxdxbxegedabagacad", i.e. blue foreground and default background for regular directories, black fore-ground and red background for setuid executables, etc.
