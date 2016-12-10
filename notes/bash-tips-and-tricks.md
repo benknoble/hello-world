@@ -13,7 +13,7 @@ You can use the following items within "prompt" to display variables:
 * \d – Current date
 * \t – Current time
 * \h – Host name
-* \\# – Command number
+* \\! – Command number
 * \u – User name
 * \W – Current working directory (ie: Desktop/)
 * \w – Current working directory with full path (ie: /Users/Admin/Desktop/)
