@@ -282,7 +282,7 @@ namespace CollectionTypes
 
 		/// <summary>
 		/// Calculates the NormalCDF, the probability that a random variable is less than the upper bound
-		/// and greater than the lower bound on the normal density distribution curve using 
+		/// and greater than the lower bound on the normal density distribution curve using
 		/// Zelen and Severo's approximation (error &lt; 7.5*10^−8).
 		/// </summary>
 		/// <returns>Probability.</returns>
@@ -297,7 +297,7 @@ namespace CollectionTypes
 
 		/// <summary>
 		/// Calculates the complementary normalCDF, the probability that a random variable is less than a lower
-		/// bound  and greater than the upper bound on the normal density distribution curve using 
+		/// bound  and greater than the upper bound on the normal density distribution curve using
 		/// Zelen and Severo's approximation (error &lt; 7.5*10^−8).
 		/// </summary>
 		/// <returns>Probability.</returns>
@@ -324,7 +324,7 @@ namespace CollectionTypes
 
 		/// <summary>
 		/// Calculates the complementary normalCDF, the probability that a random variable is less than a lower
-		/// bound on the normal density distribution curve using 
+		/// bound on the normal density distribution curve using
 		/// Zelen and Severo's approximation (error &lt; 7.5*10^−8) and the given mean/standard deviation.
 		/// </summary>
 		/// <returns>The normal CD.</returns>
@@ -338,7 +338,7 @@ namespace CollectionTypes
 
 		/// <summary>
 		/// Calculates the NormalCDF, the probability that a random variable is less than the upper bound
-		/// and greater than the lower bound on the normal density distribution curve using 
+		/// and greater than the lower bound on the normal density distribution curve using
 		/// Zelen and Severo's approximation (error &lt; 7.5*10^−8) and the given mean/standard deviation.
 		/// </summary>
 		/// <returns>Probability.</returns>
@@ -355,7 +355,7 @@ namespace CollectionTypes
 
 		/// <summary>
 		/// Calculates the complementary normalCDF, the probability that a random variable is less than a lower
-		/// bound  and greater than the upper bound on the normal density distribution curve using 
+		/// bound  and greater than the upper bound on the normal density distribution curve using
 		/// Zelen and Severo's approximation (error &lt; 7.5*10^−8) and the given mean/standard deviation.
 		/// </summary>
 		/// <returns>The normal CD.</returns>
