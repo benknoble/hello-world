@@ -1,5 +1,5 @@
-# motions
-## (aka) how to move in Vim
+# Motions
+## (aka) How to Move in Vim
 
 On motions:
 
