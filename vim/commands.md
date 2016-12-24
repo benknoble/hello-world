@@ -1,2 +1,2 @@
-# commands
-## (aka) how to do things in Vim
+# Commands
+## (aka) How to Do Things in Vim
