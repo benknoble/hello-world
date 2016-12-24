@@ -46,6 +46,8 @@ _;_: Repeat last _f_,_F_,_t_,_T_.
 
 _'_: Repeat last _f_,_F_,_t_,_T_ in opposite direction.
 
+_%_: Go to matching brace, bracket, comment, or directive in this line.
+
 ### Up/Down Motions
 
 _-_: Up, on the first non-blank character.
@@ -61,6 +63,70 @@ _gg_: First line, on the first non-blank character. With count **N**, go to the 
 _gk_: Up screen line.
 
 _gj_: Down screen line.
+
+_H_: First line in window, on the first non-blank character.
+
+_M_: Middle line in window, on the first non-blank character.
+
+_L_: Last line in window, on the first non-blank character.
+
+### Text Object Motions
+
+_w_: Forward to the beginning of one word.
+
+_W_: Forward to the beginning of one blank-separated "word."
+
+_e_: Forward to the end of one word.
+
+_E_: Forward to the end of one blank-separated "word."
+
+_b_: Backward to the beginning of one word.
+
+_B_: Backward to the beginning of one blank-separated "word."
+
+_ge_: Backward to the end of one word.
+
+_gE_: Backward to the end of one blank-separated "word."
+
+_(_: One sentence backward.
+
+_)_: One sentence forward.
+
+_{_: One paragraph backward.
+
+_}_: One paragraph forward.
+
+_]]_: One section forward, at start of section.
+
+_[[_: One section backward, at start of section.
+
+_][_: One section forward, at end of section.
+
+_[]_: One section backward, at end of section.
+
+_[(_: Back once to unclosed '('.
+
+_[{_: Back once to unclosed '{'.
+
+_[m_: Back once to start of method.
+
+_[M_: Back once to end of method.
+
+_])_: Forward once to unclosed ')'.
+
+_]}_: Forward once to unclosed '}'.
+
+_]m_: Forward once to start of method.
+
+_]M_: Forward once to end of method.
+
+_[#_: Back once to unclosed "#if" or "#else."
+
+_]#_: Forward once to unclosed "#else" or "#endif."
+
+_[*_: Back once to start of comment multiline comment.
+
+_]*_: Forward once to end of multiline comment.
 
 ### Tags (like links)
 
