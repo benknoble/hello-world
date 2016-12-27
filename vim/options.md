@@ -11,3 +11,5 @@ You can set an option to its default with `:set {option}&`.
 ### Some Useful Options (Especially for a .vimrc)
 
 `:set showmode`: Show what mode you are in on the status line.
+`:set number`: Show line numbers.
+`:set ruler`: Show the cursor position in the bottom-right corner.
