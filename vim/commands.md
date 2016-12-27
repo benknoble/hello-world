@@ -28,10 +28,10 @@ be a command. Simply type the command.
 
 `:help`: Open help window.
 
-`:help **{subject}**`: Find help on **{subject}**. Subject can be a key command,
+`:help`**{subject}**: Find help on **{subject}**. Subject can be a key command,
 like x, or a topic, like deleting.
 
-`:helpgrep **{subject}**`: Search help pages for **{subject}**.
+`:helpgrep`**{subject}**: Search help pages for **{subject}**.
 
 `CTRL-G`: Find where you are in a file (displays message in status line).
 
