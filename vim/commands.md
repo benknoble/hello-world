@@ -33,6 +33,8 @@ like x, or a topic, like deleting.
 
 _:helpgrep {subject}_: Search help pages for {subject}.
 
+_CTRL-G_: Find where you are in a file (displays message in status line).
+
 ### Deletion Commands
 
 _x_: Delete a single character under the cursor.
@@ -40,6 +42,22 @@ _x_: Delete a single character under the cursor.
 _dd_: Delete the line the cursor is on.
 
 _J_: Delete a line break (joins the cursor-line with that below it).
+
+### Scrolling Commands
+
+_CTRL-U_: Scroll up a half screen.
+
+_CTRL-D_: Scroll down a half screen.
+
+_CTRL-F_: Scroll a screen forward.
+
+_CTRL-B_: Scroll a screen backward.
+
+_zz_: Puts line with cursor in middle of screen.
+
+_zt_: Puts line with curson at top of screen.
+
+_zb_: Puts line with cursor at bottom of screen.
 
 ### Undo/Redo Commands
 
