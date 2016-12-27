@@ -12,63 +12,63 @@ be a command. Simply type the command.
 
 ### Exiting Commands
 
-_ZZ_: Write and quit.
+`ZZ`: Write and quit.
 
-_ZQ_: Quit without checking for changes (like `:q!`).
+`ZQ`: Quit without checking for changes (like `:q!`).
 
-_:q_: Quit (will not quit if changes have not been overwritten).
+`:q`: Quit (will not quit if changes have not been overwritten).
 
-_:q!_: Quit and discard changes (forces quit).
+`:q!`: Quit and discard changes (forces quit).
 
-_:confirm quit_: Confirm quit operation.
+`:confirm quit`: Confirm quit operation.
 
-_:x_: Exit. Write if changes made, then quit.
+`:x`: Exit. Write if changes made, then quit.
 
 ### Help Commands
 
-_:help_: Open help window.
+`:help`: Open help window.
 
-_:help {subject}_: Find help on {subject}. Subject can be a key command,
+`:help {subject}`: Find help on {subject}. Subject can be a key command,
 like x, or a topic, like deleting.
 
-_:helpgrep {subject}_: Search help pages for {subject}.
+`:helpgrep {subject}`: Search help pages for {subject}.
 
-_CTRL-G_: Find where you are in a file (displays message in status line).
+`CTRL-G`: Find where you are in a file (displays message in status line).
 
 ### Deletion Commands
 
-_x_: Delete a single character under the cursor.
+`x`: Delete a single character under the cursor.
 
-_dd_: Delete the line the cursor is on.
+`dd`: Delete the line the cursor is on.
 
-_J_: Delete a line break (joins the cursor-line with that below it).
+`J`: Delete a line break (joins the cursor-line with that below it).
 
 ### Scrolling Commands
 
-_CTRL-U_: Scroll up a half screen.
+`CTRL-U`: Scroll up a half screen.
 
-_CTRL-D_: Scroll down a half screen.
+`CTRL-D`: Scroll down a half screen.
 
-_CTRL-F_: Scroll a screen forward.
+`CTRL-F`: Scroll a screen forward.
 
-_CTRL-B_: Scroll a screen backward.
+`CTRL-B`: Scroll a screen backward.
 
-_zz_: Puts line with cursor in middle of screen.
+`zz`: Puts line with cursor in middle of screen.
 
-_zt_: Puts line with curson at top of screen.
+`zt`: Puts line with curson at top of screen.
 
-_zb_: Puts line with cursor at bottom of screen.
+`zb`: Puts line with cursor at bottom of screen.
 
 ### Undo/Redo Commands
 
-_u_: Undoes the last edit. Can be used in succession to undo multiple edits.
+`u`: Undoes the last edit. Can be used in succession to undo multiple edits.
 
-_U_: Undoes all changes on the last line edited (can be undone with `u`).
+`U`: Undoes all changes on the last line edited (can be undone with `u`).
 
-_CTRL-R_: Redoes the last Undo command.
+`CTRL-R`: Redoes the last Undo command.
 
 ### Various Commands
 
-_o_: Open a new line (in Insert mode) on the line below the cursor.
+`o`: Open a new line (in Insert mode) on the line below the cursor.
 
-_O_: Open a new line (in Insert mode) on the line above the cursor.
+`O`: Open a new line (in Insert mode) on the line above the cursor.

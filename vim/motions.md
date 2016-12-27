@@ -4,132 +4,132 @@
 On motions:
 
 Most motions can be prefixed with a count to indicate how many times to move.
-For example, typing "5l" will move the cursor 5 characters right.
+For example, typing `5l` will move the cursor 5 characters right.
 
 ### Single Character Movements
 
-_h_: Left.
+`h`: Left.
 
-_l_: Right.
+`l`: Right.
 
-_k_: Up.
+`k`: Up.
 
-_j_: Down.
+`j`: Down.
 
 ### Left/Right Motions
 
-_0_: First character in line.
+`0`: First character in line.
 
-_^_: First non-blank character in line.
+`^`: First non-blank character in line.
 
-_$_: Last character in line. With count **N**, down **N-1** lines.
+`$`: Last character in line. With count **N**, down **N-1** lines.
 
-_g0_: First character in screen line.
+`g0`: First character in screen line.
 
-_g^_: First non-blank character in screen line.
+`g^`: First non-blank character in screen line.
 
-_g$_: Last character in screen line.
+`g$`: Last character in screen line.
 
-_gm_: To middle of screen line.
+`gm`: To middle of screen line.
 
-_|_ (read "bar"): To first column. With count **N**, to **Nth** column.
+`|` (read "bar"): To first column. With count **N**, to **Nth** column.
 
-_f_**{char}**: Find **{char}** on the right. Case-sensitive.
+`f`**{char}**: Find **{char}** on the right. Case-sensitive.
 
-_F_**{char}**: Find **{char}** on the left. Case-sensitive.
+`F`**{char}**: Find **{char}** on the left. Case-sensitive.
 
-_t_**{char}**: To before **{char}** on the right. Case-sensitive.
+`t`**{char}**: To before **{char}** on the right. Case-sensitive.
 
-_T_**{char}**: To before **{char}** on the left. Case-sensitive.
+`T`**{char}**: To before **{char}** on the left. Case-sensitive.
 
-_;_: Repeat last _f_,_F_,_t_,_T_.
+`;`: Repeat last `f`,`F`,`t`,`T`.
 
-_'_: Repeat last _f_,_F_,_t_,_T_ in opposite direction.
+`'`: Repeat last `f`,`F`,`t`,`T` in opposite direction.
 
-_%_: Go to matching brace, bracket, comment, or directive in this line.
+`%`: Go to matching brace, bracket, comment, or directive in this line.
 
 ### Up/Down Motions
 
-_-_: Up, on the first non-blank character.
+`-`: Up, on the first non-blank character.
 
-_+_: Down, on the first non-blank character.
+`+`: Down, on the first non-blank character.
 
-_G_: Last line, on the first non-blank character. With count **N**, go to line **N**.
+`G`: Last line, on the first non-blank character. With count **N**, go to line **N**.
 
-_gg_: First line, on the first non-blank character. With count **N**, go to the line **N**.
+`gg`: First line, on the first non-blank character. With count **N**, go to the line **N**.
 
-**N**_%_: Go to line **Nth** percention down in file. Different from _%_ command.
+**N**`%`: Go to line **Nth** percention down in file. Different from `%` command.
 
-_gk_: Up screen line.
+`gk`: Up screen line.
 
-_gj_: Down screen line.
+`gj`: Down screen line.
 
-_H_: First line in window, on the first non-blank character.
+`H`: First line in window, on the first non-blank character.
 
-_M_: Middle line in window, on the first non-blank character.
+`M`: Middle line in window, on the first non-blank character.
 
-_L_: Last line in window, on the first non-blank character.
+`L`: Last line in window, on the first non-blank character.
 
 ### Text Object Motions
 
-_w_: Forward to the beginning of one word.
+`w`: Forward to the beginning of one word.
 
-_W_: Forward to the beginning of one blank-separated "word."
+`W`: Forward to the beginning of one blank-separated "word."
 
-_e_: Forward to the end of one word.
+`e`: Forward to the end of one word.
 
-_E_: Forward to the end of one blank-separated "word."
+`E`: Forward to the end of one blank-separated "word."
 
-_b_: Backward to the beginning of one word.
+`b`: Backward to the beginning of one word.
 
-_B_: Backward to the beginning of one blank-separated "word."
+`B`: Backward to the beginning of one blank-separated "word."
 
-_ge_: Backward to the end of one word.
+`ge`: Backward to the end of one word.
 
-_gE_: Backward to the end of one blank-separated "word."
+`gE`: Backward to the end of one blank-separated "word."
 
-_(_: One sentence backward.
+`(`: One sentence backward.
 
-_)_: One sentence forward.
+`)`: One sentence forward.
 
-_{_: One paragraph backward.
+`{`: One paragraph backward.
 
-_}_: One paragraph forward.
+`}`: One paragraph forward.
 
-_]]_: One section forward, at start of section.
+`]]`: One section forward, at start of section.
 
-_[[_: One section backward, at start of section.
+`[[`: One section backward, at start of section.
 
-_][_: One section forward, at end of section.
+`][`: One section forward, at end of section.
 
-_[]_: One section backward, at end of section.
+`[]`: One section backward, at end of section.
 
-_[(_: Back once to unclosed '('.
+`[(`: Back once to unclosed '('.
 
-_[{_: Back once to unclosed '{'.
+`[{`: Back once to unclosed '{'.
 
-_[m_: Back once to start of method.
+`[m`: Back once to start of method.
 
-_[M_: Back once to end of method.
+`[M`: Back once to end of method.
 
-_])_: Forward once to unclosed ')'.
+`])`: Forward once to unclosed ')'.
 
-_]}_: Forward once to unclosed '}'.
+`]}`: Forward once to unclosed '}'.
 
-_]m_: Forward once to start of method.
+`]m`: Forward once to start of method.
 
-_]M_: Forward once to end of method.
+`]M`: Forward once to end of method.
 
-_[#_: Back once to unclosed "#if" or "#else."
+`[#`: Back once to unclosed "#if" or "#else."
 
-_]#_: Forward once to unclosed "#else" or "#endif."
+`]#`: Forward once to unclosed "#else" or "#endif."
 
-_[*_: Back once to start of comment multiline comment.
+`[*`: Back once to start of comment multiline comment.
 
-_]*_: Forward once to end of multiline comment.
+`]*`: Forward once to end of multiline comment.
 
 ### Tags (like links)
 
-_CTRL-]_: Jump to tag.
+`CTRL-]`: Jump to tag.
 
-_CTRL-T_ or _CTRL-O_: Jump back.
+`CTRL-T` or `CTRL-O`: Jump back.
