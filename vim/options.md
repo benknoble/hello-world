@@ -13,3 +13,7 @@ You can set an option to its default with `:set {option}&`.
 1. `:set showmode`: Show what mode you are in on the status line.
 2. `:set number`: Show line numbers.
 3. `:set ruler`: Show the cursor position in the bottom-right corner.
+4. `:set igorecase` or `set noignorecase`: Search ignoring case, or not.
+5. `:set hlsearch` or `:set nohlsearch`: Highlight matches, or not.
+6. `:set incsearch` or `:set noincsearch`: Display first match during
+search edit, or not.
