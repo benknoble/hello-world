@@ -29,6 +29,22 @@ the cursor) or `A` to append to the end of a line.
 
 ### Visual
 
+In general Visual mode, moving the cursor highlights text to operate on
+(usually with operators).
+
+To enter Visual mode, type `v` in Normal mode.
+To exit Visual mode, type an operator or `<Esc>`.
+
+There is also a "Line-Visual" mode that selects entire lines. To enter,
+type `V`.
+
+Finally, there is "Block-Visual" mode, which selects blocks of text. To enter,
+type `CTRL-V`.
+
+Typing `o` (and `O` in "Block-Visual") during Visual mode lets you switch
+to the other end of the selection, giving you more versatility to select what
+you want.
+
 ### Replace
 
 In Replace mode, characters typed replace those already there.
