@@ -69,6 +69,24 @@ like x, or a topic, like deleting.
 
 `CTRL-R`: Redoes the last Undo command.
 
+### Searching Commands
+
+`/`**{search string}**`<Enter>`: Search forward for **{search string}**.
+
+`?`**{search string}**`<Enter>`: Search backward for **{search string}**.
+
+`*`: Search forward for word under cursor.
+
+`#`: Search backward for word under cursor.
+
+`g*`: Like `*`, but match partial words.
+
+`g#`: Like `#`, but match partial words.
+
+`n`: Repeat last search.
+
+`N`: Repeat last search in opposite direction.
+
 ### Various Commands
 
 `o`: Open a new line (in Insert mode) on the line below the cursor.
