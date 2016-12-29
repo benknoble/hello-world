@@ -41,7 +41,24 @@ like x, or a topic, like deleting.
 
 `x`: Delete a single character under the cursor.
 
+`X`: Delete a single character left of cursor.
+
 `dd`: Delete the line the cursor is on.
+
+`d`**{motion}**: Delete the text from cursor up to the result of
+**{motion}**.
+
+`D`: Delete to end of line.
+
+`cc`: Change a whole line.
+
+`c`**{motion}**: Like `d`, but leaves you in Insert mode.
+
+`C`: Change to end of line.
+
+`s`: Change one character.
+
+`S`: Change a whole line.
 
 `J`: Delete a line break (joins the cursor-line with that below it).
 
@@ -68,6 +85,8 @@ like x, or a topic, like deleting.
 `U`: Undoes all changes on the last line edited (can be undone with `u`).
 
 `CTRL-R`: Redoes the last Undo command.
+
+`.`: Repeats the last change made.
 
 ### Searching Commands
 
