@@ -91,11 +91,24 @@ like x, or a topic, like deleting.
 
 `(backtick)(backtick)` (\`\`): Jump to last position.
 
+`''`: Jump to line of last position.
+
 `CTRL-O`: Jump to older position.
 
 `CTRL-I`: Jump to newer position.
 
 `:jumps`: Gives a list of positions.
+
+### Marking Commands
+
+`m`**{char}**: Marks the cursor's position as mark **{char}**, which
+can be any of the the letters a-z.
+
+`(backtick)`**{char}** (\`**{char}**): Move to position marked by **{char}**.
+
+`'`**{char}**: Move to line with position marked by **{char}**.
+
+`:marks`: List marks.
 
 ### Various Commands
 
