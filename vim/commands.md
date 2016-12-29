@@ -18,6 +18,8 @@ be a command. Simply type the command.
 
 `:q`: Quit (will not quit if changes have not been overwritten).
 
+`:wq`: Variation on `:q`. Write-Quit.
+
 `:q!`: Quit and discard changes (forces quit).
 
 `:confirm quit`: Confirm quit operation.
