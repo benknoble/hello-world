@@ -87,6 +87,16 @@ like x, or a topic, like deleting.
 
 `N`: Repeat last search in opposite direction.
 
+### Jumping Commands
+
+`(backtick)(backtick)` (\`\`): Jump to last position.
+
+`CTRL-O`: Jump to older position.
+
+`CTRL-I`: Jump to newer position.
+
+`:jumps`: Gives a list of positions.
+
 ### Various Commands
 
 `o`: Open a new line (in Insert mode) on the line below the cursor.
