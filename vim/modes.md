@@ -30,3 +30,11 @@ the cursor) or `A` to append to the end of a line.
 ### Visual
 
 ### Replace
+
+In Replace mode, characters typed replace those already there.
+
+To enter Replace mode, type `R` while in Normal mode.
+To exit, press `<Esc>`.
+
+While technically not Replace mode, you can replace a single character
+under the cursor with another single character by typing `r`**{new char}**.
