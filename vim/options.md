@@ -5,7 +5,9 @@ There are various options in Vim that can be used to customize the experience.
 Below are some of these many. To get help on options, type `:help options`.
 
 You can see all options set to non-default values with `:set`.
+
 You can see the value of an options with `:set {option}?`.
+
 You can set an option to its default with `:set {option}&`.
 
 ### Some Useful Options (Especially for a .vimrc)
