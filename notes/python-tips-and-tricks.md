@@ -1,7 +1,7 @@
-#Python Tips and Tricks
-######Disclaimer: I am just starting to learn Python, so some of this could be horrible wrong.
+# Python Tips and Tricks
+###### Disclaimer: I am just starting to learn Python, so some of this could be horribly wrong.
 
-##Python scripts
+## Python scripts
 
 You can create a python script by starting a .py file with the line
 ```python
@@ -32,7 +32,7 @@ to contain the path to the bash script. Then you can do:
 `$my_python_bash_script`
 and voilà! Python script executed.
 
-###Using "main" in a Python script
+### Using "main" in a Python script
 
 Sometimes, you want to write a Python script/class definition with an executable function, but you later realize that class definition would be useful to import in later functions. How do we solve this? In Python, we have a special construct:
 
