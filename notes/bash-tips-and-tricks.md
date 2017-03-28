@@ -1,6 +1,6 @@
-#Bash Tips and Tricks
+# Bash Tips and Tricks
 
-###Fun stuff
+### Fun stuff
 ```bash
 [user]$ echo $'\a' #make the terminal beep
 [user]$ say "something" #tested on mac only, but the computer will read text to you
@@ -20,14 +20,14 @@ You can use the following items within "prompt" to display variables:
 
 You can also access environment variables like $PATH or even execute commands like $(pwd). In this example, the pwd is useful because it always outputs the full path name, unlike \W and \w which use the ~ home shortcut.
 
-###I/O Redirection
+### I/O Redirection
 ```bash
 [user]$ command > destination #redirected output
 [user]$ destination < command #redirected input
 [user]$ command1 | command2   #redirect command1 output into command2 input
 ```
 
-###Useful commands
+### Useful commands
 man or help these commands for more info:
 ```bash
 [user]$ man      #display manual pages
