@@ -1,4 +1,4 @@
-#LSCOLORS help
+# LSCOLORS help
 
 The value of this variable describes what color to use for which attribute when colors are enabled with CLICOLOR.  This string is a concatenation of pairs of the format fb, where f is the foreground color and b is the background color.
 
