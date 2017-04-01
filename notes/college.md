@@ -10,7 +10,7 @@ off as completed
  - [ ] Comp 411
  - [x] Math 231-233
  - [ ] Comp 283 OR Math 381 (H) (also in Math)
- - [ ] Phys 118
+ - [ ] Phys 118/L
  - [x] Astro 101/L
  - [ ] Comp 455
  - [ ] Comp 550
