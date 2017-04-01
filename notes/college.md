@@ -11,7 +11,7 @@ off as completed
  - [x] Math 231-233
  - [ ] Comp 283 OR Math 381 (H) (also in Math)
  - [ ] Phys 118
- - [ ] Astro 101/L
+ - [x] Astro 101/L
  - [ ] Comp 455
  - [ ] Comp 550
  - [ ] Math 547 OR 577 (also in Math)
