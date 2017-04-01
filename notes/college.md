@@ -25,7 +25,7 @@ off as completed
 
 ## Comp Sci (MS)
 
-// TODO
+`// TODO`
 
 ## French Minor
 
