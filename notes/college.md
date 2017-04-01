@@ -45,4 +45,31 @@ off as completed
 
 ## Gen Eds
 
-// TODO
+### Foundations
+
+ - [x] Engl 105
+ - [x] FL Fren 203
+ - [x] QR Comp 401H
+ - [x] LFIT 115
+
+### Approaches
+
+ - [x] PX Enec 202
+ - [x] PL Phys 104
+ - [ ] HS
+ - [x] SS Reli 70
+ - [ ] HS/SS
+ - [ ] PH
+ - [x] LA Engl 191
+ - [x] VP Clar 50H
+
+### Connections
+
+ - [x] CI Fren 255
+ - [x] QI/QR Comp 110
+ - [ ] EE (will be satisfied by Study Abroad)
+ - [ ] US
+ - [ ] NA
+ - [x] BN Clar 50H
+ - [x] WB Clar 50H
+ - [ ] GI
