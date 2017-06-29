@@ -1,3 +1,3 @@
 # Free-Writes
 
-I shall be free-writing when I have time. Here shall they be found.
+I will be free-writing when I have time. Here shall they be found.
