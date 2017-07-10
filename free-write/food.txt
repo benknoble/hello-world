@@ -64,4 +64,5 @@ Why you gotta waste your food?
 
 ---
 
-A parody of *Rude* about food waste. Original material by David Knoble.
+A parody of "Rude" about food waste. Original material by David Knoble.
+Created for RYM '17.
