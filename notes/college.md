@@ -23,6 +23,11 @@ off as completed
  - [ ] Comp 541
  - [ ] Math 661 (also in Math)
 
+### For Honors
+
+- [ ] Comp 396 x2 (Typically senior year; Honors project; contact Diane Pozefsky
+  for more information)
+
 ## Comp Sci (MS)
 
 `// TODO`
