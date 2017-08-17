@@ -42,7 +42,7 @@ off as completed
 
 ## Math Minor
 
- - [ ] Math 381 (also in Comp)
+ - [ ] Math 381 (H) (also in Comp)
  - [x] Math 383
  - [ ] Math 547 (also in Comp)
  - [ ] Math 521
