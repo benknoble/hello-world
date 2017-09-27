@@ -5,28 +5,33 @@ off as completed
 
 ## Comp Sci (BS)
 
- - [x] Comp 401
- - [x] Comp 410
- - [ ] Comp 411
- - [x] Math 231-233
- - [ ] Comp 283 OR Math 381 (H) (also in Math)
- - [ ] Phys 118/L
+ - [x] Comp 401 Foundations of Programming
+ - [x] Comp 410 Data Structures and Algorithms
+ - [ ] Comp 411 Computer Organization and Design
+ - [x] Math 231-233 Calculus I-III
+ - [ ] Comp 283 OR Math 381 (H) (also in Math) Discrete Structures
+ - [ ] Phys 118/L Mechanics & Relativity
  - [x] Astro 101/L
- - [ ] Comp 455
- - [ ] Comp 550
- - [ ] Math 547 OR 577 (also in Math)
- - [ ] Stor 435
- - [ ] Comp 520
- - [ ] Comp 530
- - [ ] Comp 524
- - [ ] Comp 523
- - [ ] Comp 541
- - [ ] Math 661 (also in Math)
+ - [ ] Comp 455 Models of Language and Computation
+ - [ ] Comp 550 Algs/Analysis
+ - [ ] Math 547 OR 577 (also in Math) Linear Algebra for Applications
+ - [ ] Stor 435 Probability
+ - [ ] Comp 520 Compilers
+ - [ ] Comp 530 OS
+ - [ ] Comp 524 Programming Language Concepts
+ - [ ] Comp 523 Software Engineering Lab
+ - [ ] Comp 541 Digital Logic & Computer Design
+ - [ ] Math 661 (also in Math) Scientific Computation I
+
+ - [ ] Comp 426 Modern Web Programming ?
+ - [ ] Comp 521 Files & Databases ?
 
 ### For Honors
 
 - [ ] Comp 396 x2 (Typically senior year; Honors project; contact Diane Pozefsky
   for more information)
+
+- [ ] Comp 691/2 H Honors Thesis in CS
 
 ## Comp Sci (MS)
 
@@ -42,11 +47,11 @@ off as completed
 
 ## Math Minor
 
- - [ ] Math 381 (H) (also in Comp)
- - [x] Math 383
- - [ ] Math 547 (also in Comp)
- - [ ] Math 521
- - [ ] Math 522 OR Math 661 (also in Comp)
+ - [ ] Math 381 (H) (also in Comp) Discrete Structures
+ - [x] Math 383 Differential Equations
+ - [ ] Math 547 (also in Comp) Linear Algebra of Applications
+ - [ ] Math 521 Calculus I
+ - [ ] Math 522 OR Math 661 (also in Comp) Calculus II or Scientific Computation I
 
 ## Gen Eds
 
