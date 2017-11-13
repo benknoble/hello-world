@@ -69,7 +69,7 @@ off as completed
  - [ ] HS
  - [x] SS Reli 70
  - [ ] HS/SS
- - [ ] PH
+ - [ ] PH Ling/Phil 145H
  - [x] LA Engl 191
  - [x] VP Clar 50H
 
