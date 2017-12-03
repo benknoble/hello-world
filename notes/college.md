@@ -15,7 +15,7 @@ off as completed
  - [ ] Comp 455 Models of Language and Computation
  - [ ] Comp 550 Algs/Analysis
  - [ ] Math 547 OR 577 (also in Math) Linear Algebra for Applications
- - [ ] Stor 435 Probability
+ - [ ] Stor 435 Probability or Math 535 (also in Math)
  - [ ] Comp 520 Compilers
  - [ ] Comp 530 OS
  - [ ] Comp 524 Programming Language Concepts
@@ -50,7 +50,7 @@ off as completed
  - [ ] Math 381 (H) (also in Comp) Discrete Structures
  - [x] Math 383 Differential Equations
  - [ ] Math 547 (also in Comp) Linear Algebra of Applications
- - [ ] Math 521 Calculus I
+ - [ ] Math 521 Calculus I OR Math 535 Intro to Probability (Also in Comp)
  - [ ] Math 522 OR Math 661 (also in Comp) Calculus II or Scientific Computation I
 
 ## Gen Eds
