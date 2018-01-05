@@ -7,14 +7,14 @@ off as completed
 
  - [x] Comp 401 Foundations of Programming
  - [x] Comp 410 Data Structures and Algorithms
- - [ ] Comp 411 Computer Organization and Design
+ - [x] Comp 411 Computer Organization and Design
  - [x] Math 231-233 Calculus I-III
- - [ ] Comp 283 OR Math 381 (H) (also in Math) Discrete Structures
+ - [x] Comp 283 OR Math 381 (H) (also in Math) Discrete Structures
  - [ ] Phys 118/L Mechanics & Relativity
  - [x] Astro 101/L
  - [ ] Comp 455 Models of Language and Computation
  - [ ] Comp 550 Algs/Analysis
- - [ ] Math 547 OR 577 (also in Math) Linear Algebra for Applications
+ - [x] Math 547 OR 577 (also in Math) Linear Algebra for Applications
  - [ ] Stor 435 Probability or Math 535 (also in Math)
  - [ ] Comp 520 Compilers
  - [ ] Comp 530 OS
@@ -39,7 +39,7 @@ off as completed
 
 ## French Minor
 
- - [ ] Fren 300
+ - [x] Fren 300
  - [ ] Fren >275
  - [ ] Fren >275
  - [ ] Fren >275
@@ -47,9 +47,9 @@ off as completed
 
 ## Math Minor
 
- - [ ] Math 381 (H) (also in Comp) Discrete Structures
+ - [x] Math 381 (H) (also in Comp) Discrete Structures
  - [x] Math 383 Differential Equations
- - [ ] Math 547 (also in Comp) Linear Algebra of Applications
+ - [x] Math 547 (also in Comp) Linear Algebra of Applications
  - [ ] Math 521 Calculus I OR Math 535 Intro to Probability (Also in Comp)
  - [ ] Math 522 OR Math 661 (also in Comp) Calculus II or Scientific Computation I
 
@@ -69,7 +69,7 @@ off as completed
  - [ ] HS
  - [x] SS Reli 70
  - [ ] HS/SS
- - [ ] PH Ling/Phil 145H
+ - [x] PH Ling/Phil 145H
  - [x] LA Engl 191
  - [x] VP Clar 50H
 
