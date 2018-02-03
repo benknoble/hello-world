@@ -82,4 +82,4 @@ off as completed
  - [ ] NA
  - [x] BN Clar 50H
  - [x] WB Clar 50H
- - [ ] GI
+ - [ ] GL
