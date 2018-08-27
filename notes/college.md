@@ -10,10 +10,10 @@ off as completed
  - [x] Comp 411 Computer Organization and Design
  - [x] Math 231-233 Calculus I-III
  - [x] Comp 283 OR Math 381 (H) (also in Math) Discrete Structures
- - [ ] Phys 118/L Mechanics & Relativity
+ - [x] Phys 118/L Mechanics & Relativity
  - [x] Astro 101/L
- - [ ] Comp 455 Models of Language and Computation
- - [ ] Comp 550 Algs/Analysis
+ - [x] Comp 455 Models of Language and Computation
+ - [x] Comp 550 Algs/Analysis
  - [x] Math 547 OR 577 (also in Math) Linear Algebra for Applications
  - [ ] Stor 435 Probability or Math 535 (also in Math)
  - [ ] Comp 520 Compilers
@@ -24,7 +24,7 @@ off as completed
  - [ ] Math 661 (also in Math) Scientific Computation I
 
  - [ ] Comp 426 Modern Web Programming ?
- - [ ] Comp 521 Files & Databases ?
+ - [x] Comp 521 Files & Databases ?
 
 ### For Honors
 
@@ -40,7 +40,7 @@ off as completed
 ## French Minor
 
  - [x] Fren 300
- - [ ] Fren >275
+ - [x] Fren >275
  - [ ] Fren >275
  - [ ] Fren >275
  - [ ] Fren >275
