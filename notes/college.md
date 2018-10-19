@@ -8,23 +8,29 @@ off as completed
  - [x] Comp 401 Foundations of Programming
  - [x] Comp 410 Data Structures and Algorithms
  - [x] Comp 411 Computer Organization and Design
- - [x] Math 231-233 Calculus I-III
- - [x] Comp 283 OR Math 381 (H) (also in Math) Discrete Structures
- - [x] Phys 118/L Mechanics & Relativity
- - [x] Astro 101/L
  - [x] Comp 455 Models of Language and Computation
  - [x] Comp 550 Algs/Analysis
+
+ - [x] Math 231-233 Calculus I-III
+ - [x] Comp 283 OR Math 381 (H) (also in Math) Discrete Structures
  - [x] Math 547 OR 577 (also in Math) Linear Algebra for Applications
  - [ ] Stor 435 Probability or Math 535 (also in Math)
+
+ - [x] Phys 118/L Mechanics & Relativity
+ - [x] Astro 101/L
+
+Five additional:
+
+ - [x] Comp 521 Files & Databases
  - [ ] Comp 520 Compilers
  - [ ] Comp 530 OS
  - [ ] Comp 524 Programming Language Concepts
- - [ ] Comp 523 Software Engineering Lab
  - [ ] Comp 541 Digital Logic & Computer Design
+ - [ ] Comp 523 Software Engineering Lab
+ - [ ] Comp 585H Serious Games
  - [ ] Math 661 (also in Math) Scientific Computation I
 
  - [ ] Comp 426 Modern Web Programming ?
- - [x] Comp 521 Files & Databases ?
 
 ### For Honors
 
@@ -37,21 +43,36 @@ off as completed
 
 `// TODO`
 
-## French Minor
+## French Major
 
+ - [x] Fren 312
  - [x] Fren 300
- - [x] Fren >275
- - [ ] Fren >275
- - [ ] Fren >275
- - [ ] Fren >275
+
+Three of:
+
+ - [x] Fren 370
+ - [ ] Fren 371
+ - [x] Fren 372
+ - [ ] Fren 374
+
+Four more:
+
+ - [x] Fren 311
+ - [x] Fren 320
+ - [x] Fren 330
+ - [ ] Fren ???
 
 ## Math Minor
 
  - [x] Math 381 (H) (also in Comp) Discrete Structures
  - [x] Math 383 Differential Equations
  - [x] Math 547 (also in Comp) Linear Algebra of Applications
- - [ ] Math 521 Calculus I OR Math 535 Intro to Probability (Also in Comp)
- - [ ] Math 522 OR Math 661 (also in Comp) Calculus II or Scientific Computation I
+ - [ ] Math 535 Probability
+
+One of:
+
+ - [ ] Math 521 Calculus I ?
+ - [ ] Math 522 OR Math 661 (also in Comp) Calculus II or Scientific Computation I ?
 
 ## Gen Eds
 
@@ -77,7 +98,7 @@ off as completed
 
  - [x] CI Fren 255
  - [x] QI/QR Comp 110
- - [ ] EE (will be satisfied by Study Abroad)
+ - [x] EE Study Abroad
  - [ ] US
  - [ ] NA
  - [x] BN Clar 50H
