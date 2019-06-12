@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <script src='./ebnf-fastopt.js'></script>
+    <script>
+      function output_handler() {
+        handle('format', g => EbnfParser.parseJS_format(g))
+        handle('scala', g => EbnfParser.parseJS_scala(g))
+      }
+
+      function handle(id, func) {
+        var input = document.getElementById('input').value
+        var result = func(input)
+        var code = document.createElement('code')
+        var text = document.createTextNode(result)
+        code.appendChild(text)
+        var output = document.getElementById(id)
+        remove_children(output)
+        output.appendChild(code)
+      }
+
+      function remove_children(element) {
+        while(element.firstChild) { element.firstChild.remove(); }
+      }
+    </script>
+  </head>
+  <body>
+    <p>Epsilon for convience: &epsilon;</p>
+    <textarea id='input' oninput='output_handler()'>&lt;A&gt; ::= a | b | {c};</textarea>
+    <p>Formatted Output</p>
+    <p id='format'></p>
+    <p>Scala Representation</p>
+    <p id='scala'></p>
+    <!-- <button type='button' onclick='output_handler()'>Try it</button> -->
+  </body>
+</html>
