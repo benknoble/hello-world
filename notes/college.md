@@ -14,7 +14,7 @@ off as completed
  - [x] Math 231-233 Calculus I-III
  - [x] Comp 283 OR Math 381 (H) (also in Math) Discrete Structures
  - [x] Math 547 OR 577 (also in Math) Linear Algebra for Applications
- - [ ] Stor 435 Probability or Math 535 (also in Math)
+ - [x] Stor 435 Probability or Math 535 (also in Math)
 
  - [x] Phys 118/L Mechanics & Relativity
  - [x] Astro 101/L
@@ -22,7 +22,7 @@ off as completed
 Five additional:
 
  - [x] Comp 521 Files & Databases
- - [ ] Comp 520 Compilers
+ - [x] Comp 520 Compilers
  - [ ] Comp 530 OS
  - [ ] Comp 524 Programming Language Concepts
  - [ ] Comp 541 Digital Logic & Computer Design
@@ -33,9 +33,6 @@ Five additional:
  - [ ] Comp 426 Modern Web Programming ?
 
 ### For Honors
-
-- [ ] Comp 396 x2 (Typically senior year; Honors project; contact Diane Pozefsky
-  for more information)
 
 - [ ] Comp 691/2 H Honors Thesis in CS
 
@@ -53,7 +50,7 @@ Three of:
  - [x] Fren 370
  - [ ] Fren 371
  - [x] Fren 372
- - [ ] Fren 374
+ - [x] Fren 374
 
 Four more:
 
@@ -67,12 +64,11 @@ Four more:
  - [x] Math 381 (H) (also in Comp) Discrete Structures
  - [x] Math 383 Differential Equations
  - [x] Math 547 (also in Comp) Linear Algebra of Applications
- - [ ] Math 535 Probability
+ - [x] Math 535 Probability
 
 One of:
 
- - [ ] Math 521 Calculus I ?
- - [ ] Math 522 OR Math 661 (also in Comp) Calculus II or Scientific Computation I ?
+ - [x] Math 521 Calculus I
 
 ## Gen Eds
 
@@ -87,9 +83,9 @@ One of:
 
  - [x] PX Enec 202
  - [x] PL Phys 104
- - [ ] HS
+ - [x] HS
  - [x] SS Reli 70
- - [ ] HS/SS
+ - [x] HS/SS
  - [x] PH Ling/Phil 145H
  - [x] LA Engl 191
  - [x] VP Clar 50H
@@ -99,8 +95,8 @@ One of:
  - [x] CI Fren 255
  - [x] QI/QR Comp 110
  - [x] EE Study Abroad
- - [ ] US
- - [ ] NA
+ - [x] US
+ - [x] NA
  - [x] BN Clar 50H
  - [x] WB Clar 50H
- - [ ] GL
+ - [x] GL
