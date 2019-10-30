@@ -1,0 +1,47 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html>
+  <head>
+    <script>
+      let data = [
+        { name: 'Foo', job: 'programmer', id: 123},
+        { name: 'Bar', job: 'bus driver', id: 456},
+        { name: 'Moo', job: 'Reindeer Hunter', id: 789 }
+      ];
+
+
+      function download_csv() {
+        let csv = 'id,job\n';
+        data.forEach(row => {
+          csv += [row.id, row.job].join(',');
+          csv += "\n";
+        });
+
+        console.log(csv);
+        let hiddenElement = document.createElement('a');
+        hiddenElement.href = 'data:text/csv;charset=utf-8,' + encodeURI(csv);
+        hiddenElement.target = '_blank';
+        hiddenElement.download = 'people.csv';
+        hiddenElement.click();
+      }
+
+      function display_data() {
+        let ul_data = document.getElementById('data')
+        data.forEach(datum => {
+          let li = document.createElement('li')
+          //li.id = datum.id
+          let p = document.createElement('p')
+          p.innerHTML = datum.name + ' ' + datum.job
+          li.appendChild(p)
+          ul_data.appendChild(li)
+        })
+      }
+
+    </script>
+  </head>
+
+  <body>
+    <ul id='data'>
+    </ul>
+    <button onclick="download_csv()">Download CSV</button>
+  </body>
+</html>
