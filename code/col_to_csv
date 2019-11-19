@@ -1,0 +1,35 @@
+#! /usr/bin/env bash
+
+set -euo pipefail
+
+log() {
+  printf '%s\n' "$@"
+} >&2
+
+usage() {
+  cat <<DOG
+usage: $0 file...
+
+the first file can serve as a header
+put each file's single column of data into csv row format
+(data must not contain commas)
+DOG
+}
+
+die() {
+  local ex="${1:-1}"
+  exit "$ex"
+}
+
+usage_and_die() { usage && die; }
+
+main() {
+  if (($# < 1)) ; then
+    usage_and_die
+  fi
+  for f do
+    <"$f" paste -sd, -
+  done
+}
+
+main "$@"
