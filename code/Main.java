@@ -4,7 +4,11 @@ class T2 extends T1 {private double x = 3;}
 class T3 extends T1 {
     double x = 4;
     void show() {
-        System.out.println( I1.x );
+        double top = I1.x;
+        top = ((T1)(this)).x;
+        // top = ((T2)(this)).x; //BAD
+        top = this.x;
+        System.out.println(top);
     }
 }
 
