@@ -2,7 +2,7 @@
   (:require [clojure.test :as t]))
 
 (defn U
-  "the U combinator => broken???"
+  "the U combinator; requires f to co-operate"
   [f]
   (f f))
 
@@ -24,16 +24,14 @@
   (let [A (fn [x] (f (fn [v] ((x x) v))))]
    (A A)))
 
-(defn theta
+(def theta
   "Turing fixed-point combinator"
-  [f]
   (let [A (fn [x] (fn [y] (y ((x x) y))))]
     (A A)))
 
-(defn theta-v
+(def theta-v
   "Turing fixed-point combinator by-value"
-  [f]
-  (let [A (fn [x] (fn [y] (y (fn [z] ((x x) y) z))))]
+  (let [A (fn [x] (fn [y] (y (fn [z] (((x x) y) z)))))]
     (A A)))
 
 (def fib'
@@ -72,13 +70,12 @@
 
 (t/deftest test-Z
   (t/are [x y] (= x y)
-         (fib 5) ((Z fib') 5)
+         (fib 6) ((Z fib') 6)
          (! 5) ((Z !') 5)))
 
-; currently also broken
-; (t/deftest test-theta-v
-;   (t/are [x y] (= x y)
-;          (fib 5) ((theta-v fib') 5)
-;          (! 5) ((theta-v !') 5)))
+(t/deftest test-theta-v
+  (t/are [x y] (= x y)
+         (fib 6) ((theta-v fib') 6)
+         (! 5) ((theta-v !') 5)))
 
 (defn run-tests [] (t/run-tests 'fix))
