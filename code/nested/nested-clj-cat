@@ -1,0 +1,4 @@
+#! /usr/bin/env bash
+
+clojure -e '(->> ['"$(cat)"'] (map flatten) (map vec) (apply prn))' \
+  | sed -e 's/ /, /g'

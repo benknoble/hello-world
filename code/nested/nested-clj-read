@@ -1,0 +1,17 @@
+#! /usr/bin/env clojure
+
+(require '[clojure.java.shell :as shell])
+
+(defn read-all
+  [stream]
+  (loop [acc []]
+    (let [red (binding [*read-eval* false]
+                (read {:eof :eof} stream))]
+      (if (= red :eof)
+        acc
+        (recur (conj acc red))))))
+
+(->> (read-all *in*)
+     (map flatten)
+     (map vec)
+     (apply prn))
