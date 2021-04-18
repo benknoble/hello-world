@@ -7,3 +7,5 @@
 *.out
 *.bcf
 *.run.xml
+*.fls
+*.fdb_latexmk
