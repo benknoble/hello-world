@@ -1,47 +1,44 @@
 Require Import Utf8.
-Require Import Relations Setoid.
-(* ??? *)
-(* Start with only finite forests; convert to Stream for possibly-infinite
- * forests *)
-Require Import List.
+(* Finite or infinite sets, constructive or classical (?) *)
+Require Import Ensembles.
 
 Section Mockingbirds.
 
+  (* Types *)
   Variable bird: Type.
-  Hypothesis responds_to: bird → bird → bird.
+  Definition forest := Ensemble bird.
 
-  (* make this a Stream later *)
-  Definition forest := list bird.
+  (* Relations *)
+  Definition In u e := Ensembles.In bird e u.
+  Variable responds_to: bird → bird → bird.
+
+  Local Notation "( x , y )" := (responds_to x y).
+
+  (* Correctness hypothesis: the forest is a closed system of birds *)
   Hypothesis responds_to_clos: ∀ (f: forest) a b,
-    In a f → In b f → In (responds_to a b) f.
+    In a f → In b f → In (a, b) f.
 
-  Definition fond_of y x :=
-    (responds_to y x) = x.
-
+  (* Problem definitions *)
+  Definition fond_of y x := (y, x) = x.
   Definition compositional (f: forest) := ∀ a b,
     In a f →
     In b f →
-    ∃ (c: bird), In c f ∧ ∀ x, (responds_to c x) = (responds_to b (responds_to a x)).
+    ∃ (c: bird), In c f ∧ ∀ x, (c, x) = (b, (a, x)).
+  Definition mockingbird M := ∀ x, (M, x) = (x, x).
 
-  Definition mockingbird M := ∀ x, (responds_to M x) = (responds_to x x).
-
-  Example MM m: mockingbird m → (responds_to m m) = (responds_to m m).
-  Proof.
-    now unfold mockingbird.
-  Qed.
+  Example MM m: mockingbird m → (m, m) = (m, m).
+  Proof. now unfold mockingbird. Qed.
 
   Theorem compositional_all_fond f m:
     compositional f →
     mockingbird m →
     In m f →
-    ∀ a, In a f → ∃ b, In b f ∧ fond_of a b.
+    ∀ p, In p f → ∃ b, In b f ∧ fond_of p b.
   Proof.
-    intros f_comp m_mock m_in_f a a_in_f.
-    destruct (f_comp m a m_in_f a_in_f) as (c & c_in_f & c_comp_ma).
-    exists (responds_to c c); intuition.
-    symmetry.
-    rewrite <- (m_mock c) at 2.
-    apply c_comp_ma.
+    intros f_comp m_mock m_in_f p a_in_f.
+    destruct (f_comp m p) as (c & c_in_f & c_comp_ma); auto.
+    specialize (c_comp_ma c); rewrite m_mock in c_comp_ma.
+    exists (c, c); intuition; now symmetry.
   Qed.
 
 End Mockingbirds.
