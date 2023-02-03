@@ -24,20 +24,20 @@ Section Mockingbirds.
     In a f →
     In b f →
     ∃ (c: bird), In c f ∧ ∀ x, (c, x) = (b, (a, x)).
-  Definition mockingbird M := ∀ x, (M, x) = (x, x).
+  Definition mockingbird M f := ∀ x, In x f → (M, x) = (x, x).
 
-  Example MM m: mockingbird m → (m, m) = (m, m).
+  Example MM f m: mockingbird m f → (m, m) = (m, m).
   Proof. now unfold mockingbird. Qed.
 
   Theorem compositional_all_fond f m:
     compositional f →
-    mockingbird m →
+    mockingbird m f →
     In m f →
     ∀ p, In p f → ∃ b, In b f ∧ fond_of p b.
   Proof.
     intros f_comp m_mock m_in_f p a_in_f.
     destruct (f_comp m p) as (c & c_in_f & c_comp_ma); auto.
-    specialize (c_comp_ma c); rewrite m_mock in c_comp_ma.
+    specialize (c_comp_ma c); rewrite m_mock in c_comp_ma; intuition.
     now exists (c, c); intuition; symmetry.
   Qed.
 
@@ -46,7 +46,7 @@ Section Mockingbirds.
 
   Theorem compositional_all_fond_contrap (f: forest):
     (∃ b, In b f ∧ no_fixpoint b f) →
-    ¬ (compositional f ∧ (∃ m, In m f ∧ mockingbird m)).
+    ¬ (compositional f ∧ (∃ m, In m f ∧ mockingbird m f)).
   Proof.
     intros (b & b_in_f & b_no_fix) [f_comp (m & m_in_f & m_mock)].
     destruct (compositional_all_fond f m) with (p := b) as [d contra]; auto.
@@ -92,6 +92,36 @@ Section Mockingbirds.
      * so therefore fixated_on (k,b) b ↔ fixated_on k b. But the former is the
      * definition of a kestrel k. *)
     now rewrite <- (fond_kestrel_fixated f k) with (z := b).
+  Qed.
+
+  Definition starling S f := ∀ x y z,
+    In x f → In y f → In z f →
+    (((S, x), y), z) = ((x, z), (y, z)).
+
+  Theorem starling_kestrel_make_id f k s:
+    In k f →
+    kestrel k f →
+    In s f →
+    starling s f →
+    ∃ I, In I f ∧ ∀ x, In x f → fond_of I x.
+  Proof.
+    intros k_in_f k_kestrel s_in_f s_starling.
+    exists ((s, k), k); intuition.
+    now unfold fond_of; rewrite s_starling, k_kestrel; intuition.
+  Qed.
+
+  Theorem starling_kestrel_make_mockingbird f k s:
+    In k f →
+    kestrel k f →
+    In s f →
+    starling s f →
+    ∃ M, In M f ∧ mockingbird M f.
+  Proof.
+    intros k_in_f k_kestrel s_in_f s_starling.
+    destruct (starling_kestrel_make_id f k s) as (i & i_in_f & i_id); auto.
+    exists ((s, i), i); intuition.
+    intros x x_in_f.
+    rewrite s_starling, i_id; intuition.
   Qed.
 
 End Mockingbirds.
