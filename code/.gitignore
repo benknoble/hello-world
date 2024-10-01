@@ -6,3 +6,4 @@
 *.vok
 *.vos
 Makefile.coq*
+wchar_out
