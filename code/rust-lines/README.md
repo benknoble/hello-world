@@ -57,6 +57,37 @@ Benchmark 1: target/release/bufchr ../gig-input.txt
 
 or about 1.48 GiB/sec.
 
+When actually writing to a file with `--output=<file>`:
+
+```
+hyperfine -N --warmup=5 --output=./output 'target/release/bufchr ../gig-input.txt' 'target/release/bufsplit ../gig-input.txt' 'target/release/record ../gig-input.txt' 'target/release/recchr ../gig-input.txt'
+Benchmark 1: target/release/bufchr ../gig-input.txt
+  Time (mean ± σ):      9.998 s ±  0.255 s    [User: 1.280 s, System: 8.062 s]
+  Range (min … max):    9.546 s … 10.463 s    10 runs
+
+Benchmark 2: target/release/bufsplit ../gig-input.txt
+  Time (mean ± σ):     11.609 s ±  0.374 s    [User: 5.136 s, System: 5.916 s]
+  Range (min … max):   11.088 s … 12.409 s    10 runs
+
+Benchmark 3: target/release/record ../gig-input.txt
+  Time (mean ± σ):      7.758 s ±  0.688 s    [User: 3.368 s, System: 2.679 s]
+  Range (min … max):    6.784 s …  8.936 s    10 runs
+
+Benchmark 4: target/release/recchr ../gig-input.txt
+  Time (mean ± σ):      6.525 s ±  0.606 s    [User: 0.694 s, System: 3.072 s]
+  Range (min … max):    5.720 s …  7.463 s    10 runs
+
+Summary
+  target/release/recchr ../gig-input.txt ran
+    1.19 ± 0.15 times faster than target/release/record ../gig-input.txt
+    1.53 ± 0.15 times faster than target/release/bufchr ../gig-input.txt
+    1.78 ± 0.17 times faster than target/release/bufsplit ../gig-input.txt
+```
+
+That's a significant slow down (0.83 GiB/sec for the average time of the fastest
+program). It appears that waiting on file _output_ creates a significant block
+for program…
+
 Machine specs:
 - OS: macOS 12.7.6 21H1320 x86_64
 - Host: MacBookPro11,5
