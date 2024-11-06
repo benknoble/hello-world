@@ -64,6 +64,7 @@ Machine specs:
 - CPU: Intel i7-4870HQ (8) @ 2.50GHz
 - GPU: Intel Iris Pro, AMD Radeon R9 M370X
 - Memory: 16384MiB
+- rustc 1.82.0 (f6e511eec 2024-10-15)
 
 Input specs:
 - 5.4 GiB (11378288 blocks)
