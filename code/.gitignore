@@ -7,3 +7,6 @@
 *.vos
 Makefile.coq*
 wchar_out
+*.dSYM
+overflow
+check-overflow
